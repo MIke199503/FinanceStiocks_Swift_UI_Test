@@ -9,7 +9,21 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("My Stocks")
+                .font(.largeTitle)
+                .bold()
+                .foregroundColor(Color.darkBlue)
+            Spacer()
+            
+            Button(action: {
+                print("Button Click")
+            }, label: {
+                Image(systemName: "magnifyingglass.circle.fill")
+                    .font(.system(size: 40))
+                    .foregroundColor(Color.darkBlue)
+            })
+        }
     }
 }
 
