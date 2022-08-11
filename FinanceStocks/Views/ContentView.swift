@@ -8,16 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isShowingStockSearchSheet:Bool = false
+    
     var body: some View {
-        VStack {
-            HeaderView()
-                .padding(10)
+        
+        VStack(spacing:20){
+            
+            HeaderView(isshowing: $isShowingStockSearchSheet)
+            
+            ProtfolioCard()
+            
+            WatchList()
+            
             Spacer()
         }
-        
-//        .ignoresSafeArea()
+        .padding()
+        .edgesIgnoringSafeArea(.bottom)
+//        .ignoresSafeArea(edges: .bottom)
+        .sheet(isPresented:$isShowingStockSearchSheet, content: {
+            Text("Searching!!!")
+        })
     }
 }
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

@@ -14,6 +14,8 @@
 		559BBA8528A3B07F00C1D2FA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BBA8428A3B07F00C1D2FA /* HeaderView.swift */; };
 		559BBA8828A3B72B00C1D2FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BBA8728A3B72B00C1D2FA /* Extensions.swift */; };
 		559BBA8A28A3BBAC00C1D2FA /* ProtfolioCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BBA8928A3BBAC00C1D2FA /* ProtfolioCard.swift */; };
+		55E1263B28A4FDA0006E19BF /* StockCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1263A28A4FDA0006E19BF /* StockCard.swift */; };
+		55E1263D28A4FE2A006E19BF /* WatchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1263C28A4FE2A006E19BF /* WatchList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		559BBA8428A3B07F00C1D2FA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		559BBA8728A3B72B00C1D2FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		559BBA8928A3BBAC00C1D2FA /* ProtfolioCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtfolioCard.swift; sourceTree = "<group>"; };
+		55E1263A28A4FDA0006E19BF /* StockCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCard.swift; sourceTree = "<group>"; };
+		55E1263C28A4FE2A006E19BF /* WatchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				559BBA8428A3B07F00C1D2FA /* HeaderView.swift */,
 				559BBA7728A3B00B00C1D2FA /* ContentView.swift */,
 				559BBA8928A3BBAC00C1D2FA /* ProtfolioCard.swift */,
+				55E1263A28A4FDA0006E19BF /* StockCard.swift */,
+				55E1263C28A4FE2A006E19BF /* WatchList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 				559BBA8A28A3BBAC00C1D2FA /* ProtfolioCard.swift in Sources */,
 				559BBA8528A3B07F00C1D2FA /* HeaderView.swift in Sources */,
 				559BBA7628A3B00B00C1D2FA /* FinanceStocksApp.swift in Sources */,
+				55E1263B28A4FDA0006E19BF /* StockCard.swift in Sources */,
+				55E1263D28A4FE2A006E19BF /* WatchList.swift in Sources */,
 				559BBA8828A3B72B00C1D2FA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

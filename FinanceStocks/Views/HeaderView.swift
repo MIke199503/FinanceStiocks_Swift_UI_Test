@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HeaderView: View {
+    @Binding var isshowing:Bool
+    
     var body: some View {
         HStack {
             Text("My Stocks")
@@ -17,7 +19,7 @@ struct HeaderView: View {
             Spacer()
             
             Button(action: {
-                print("Button Click")
+                isshowing.toggle()
             }, label: {
                 Image(systemName: "magnifyingglass.circle.fill")
                     .font(.system(size: 40))
@@ -29,6 +31,6 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderView(isshowing: .constant(true))
     }
 }
