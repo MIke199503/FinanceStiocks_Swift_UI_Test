@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5571595C28A63D6C00D47F57 /* StockModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5571595B28A63D6C00D47F57 /* StockModelData.swift */; };
+		5571595E28A63FD700D47F57 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5571595D28A63FD700D47F57 /* LineChart.swift */; };
 		559BBA7628A3B00B00C1D2FA /* FinanceStocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BBA7528A3B00B00C1D2FA /* FinanceStocksApp.swift */; };
 		559BBA7828A3B00B00C1D2FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BBA7728A3B00B00C1D2FA /* ContentView.swift */; };
 		559BBA7A28A3B00E00C1D2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559BBA7928A3B00E00C1D2FA /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5571595B28A63D6C00D47F57 /* StockModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModelData.swift; sourceTree = "<group>"; };
+		5571595D28A63FD700D47F57 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 		559BBA7228A3B00B00C1D2FA /* FinanceStocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceStocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559BBA7528A3B00B00C1D2FA /* FinanceStocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStocksApp.swift; sourceTree = "<group>"; };
 		559BBA7728A3B00B00C1D2FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 		559BBA7428A3B00B00C1D2FA /* FinanceStocks */ = {
 			isa = PBXGroup;
 			children = (
+				5571595B28A63D6C00D47F57 /* StockModelData.swift */,
 				559BBA8628A3B70F00C1D2FA /* Helpers */,
 				559BBA8328A3B06A00C1D2FA /* Views */,
 				559BBA7528A3B00B00C1D2FA /* FinanceStocksApp.swift */,
@@ -86,6 +91,7 @@
 				559BBA8928A3BBAC00C1D2FA /* ProtfolioCard.swift */,
 				55E1263A28A4FDA0006E19BF /* StockCard.swift */,
 				55E1263C28A4FE2A006E19BF /* WatchList.swift */,
+				5571595D28A63FD700D47F57 /* LineChart.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,10 +176,12 @@
 			files = (
 				559BBA7828A3B00B00C1D2FA /* ContentView.swift in Sources */,
 				559BBA8A28A3BBAC00C1D2FA /* ProtfolioCard.swift in Sources */,
+				5571595E28A63FD700D47F57 /* LineChart.swift in Sources */,
 				559BBA8528A3B07F00C1D2FA /* HeaderView.swift in Sources */,
 				559BBA7628A3B00B00C1D2FA /* FinanceStocksApp.swift in Sources */,
 				55E1263B28A4FDA0006E19BF /* StockCard.swift in Sources */,
 				55E1263D28A4FE2A006E19BF /* WatchList.swift in Sources */,
+				5571595C28A63D6C00D47F57 /* StockModelData.swift in Sources */,
 				559BBA8828A3B72B00C1D2FA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

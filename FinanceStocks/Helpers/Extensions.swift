@@ -18,3 +18,9 @@ extension Color{
         return Color(UIColor(red: 30/255, green: 4204/255, blue: 151/255, alpha: 1.0))
     }
 }
+
+//StockMockData.apple.noraliz
+
+extension Array where Element == CGFloat{
+    
+}
