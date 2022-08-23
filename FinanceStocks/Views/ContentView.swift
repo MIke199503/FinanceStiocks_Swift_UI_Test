@@ -27,7 +27,7 @@ struct ContentView: View {
         .edgesIgnoringSafeArea(.bottom)
 //        .ignoresSafeArea(edges: .bottom)
         .sheet(isPresented:$isShowingStockSearchSheet, content: {
-            Text("Searching!!!")
+            SearchStockView()
         })
     }
 }

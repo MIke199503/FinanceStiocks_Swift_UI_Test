@@ -20,7 +20,13 @@ extension Color{
 }
 
 //StockMockData.apple.noraliz
+let states = ["California","Washington","New York"]
 
 extension Array where Element == CGFloat{
-    
+    var normalizedValues:[CGFloat]{
+        if let min = self.min(),let max = self.max(){
+            return self.map({($0 - min) / (max - min)})
+        }
+        return []
+    }
 }
